@@ -1,6 +1,5 @@
-*.gem
-.bundle
-.sass-cache
-_site
-Gemfile.lock
-*.code-workspace
+_site/
+.sass-cache/
+.jekyll-metadata
+gitbook_source_code/node_modules
+gitbook_source_code/_book
