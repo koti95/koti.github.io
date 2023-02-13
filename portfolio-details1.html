@@ -35,7 +35,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body>-
 
   <main id="main">
 
@@ -52,23 +52,15 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/card2.jpg" width="600" height="400" alt="">
+                  <img src="assets/img/portfolio/traffic.jpg" width="600" height="400"alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/card1.jpg" width="600" height="400" alt="">
+                  <img src="assets/img/portfolio/traffic2.jpg" width="600" height="400" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/card5.jpg"width="600" height="400"  alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/card3.jpg" width="600" height="400" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/card4.jpg" width="600" height="400"  alt="">
+                  <img src="assets/img/portfolio/traffic3.jpg" width="600" height="400" alt="">
                 </div>
 
               </div>
@@ -78,18 +70,18 @@
           <div class="col-lg-4 portfolio-info">
             <h3><strong>Project information<strong></h3>
             <ul>
-              <li><strong>Category</strong>: AI, ML</li>
+              <li><strong>Category</strong>: AI</li>
               <li><strong>Programming</strong>: Python</li>
-              <li><strong>Project date</strong>: 2022.07.01 ~ 2022.08.05</li>
-              <li><strong>Project info</strong>: <a href="https://dacon.io/competitions/official/235930/overview/description">https://dacon.io/competitions/official/235615/overview/description</a></li>
-              <li><strong>Project Code</strong>: <a href="https://github.com/koti95/DL/blob/main/User/card/card/cardcode.ipynb" target="_blank">https://github.com/koti95/DL/blob/main/User/card/card/cardcode.ipynb</a></li>
+              <li><strong>Project date</strong>: 2022.10.03 ~ 2022.11.14</li>
+              <li><strong>Project info</strong>: <a href="https://dacon.io/competitions/official/235985/overview/description">https://dacon.io/competitions/official/235985/overview/description</a></li>
+              <li><strong>Project Code</strong>: <a href="https://github.com/koti95/DL/blob/main/User/traffic/traffic.ipynb"  target="_blank">https://github.com/koti95/DL/blob/main/User/traffic/traffic.ipynb</a></li>
             </ul>
-
             <p>
-             비식별화된 변수를 통해 정상, 사기 거래의 여부를 예측하여 탐지하는 AI 솔루션 개발 프로젝트입니다.<br>
-             데이터의 분포와 정상, 사기 거래의 비율 및 상관계수를 확인하며, 필요 없는 변수를 제거했습니다. 가설 설정을 하여
-             Isolation Forest로 분석 및 예측 해봤으며, 예측한 것을 통해 Auto Encoder로 다시 분석 예측 해봤습니다. <br>
-             주어진 train 데이터에는 사기 여부 변수가 없었으며 검증용 데이터에만 있었습니다. 검증용 데이터를 fit 하면 안 되는 규정이었기에 일반적이지 않은 방식이라 어렵다고 느꼈습니다. 상관계수 및 데이터 분포를 더 살펴보고 중요한 변수만 선정하여 분석하였다면 좋은 결과가 나왔지 않았을까 하는 아쉬움이 있던 프로젝트입니다.
+            제주도 도로 교통량 예측 AI 알고리즘 개발 프로젝트입니다.<br>
+            가이드라인 틀에 맞춰서 진행 해봤으며, 간단하게 데이터를 탐색하여 년, 월, 일 및 휴일 파생 변수를 생성하였으며,
+            불균형한 데이터 단위는 min-max 스캐일로 정규화하여 LGBM모델로 예측하였습니다.<br>
+
+            
             </p>
           </div>
 
